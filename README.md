@@ -8,7 +8,7 @@
 
 This repository provides the official PyTorch implementation of the following paper:  
 > **ConVis: Contrastive Decoding with Hallucination Visualization for Mitigating Hallucinations in Multimodal Large Language Models**  
-> [Yeji Park](https://yejipark-m.github.io)<sup>†</sup>, [Deokyeong Lee](plmft@sogang.ac.kr)<sup>†</sup>, [Junsuk Choe](https://sites.google.com/site/junsukchoe/), [Buru Chang](https://sites.google.com/view/buru-chang)  
+> [Yeji Park](https://yejipark-m.github.io)<sup>†</sup>, [Deokyeong Lee](mailto:plmft@sogang.ac.kr)<sup>†</sup>, [Junsuk Choe](https://sites.google.com/site/junsukchoe/), [Buru Chang](https://sites.google.com/view/buru-chang)  
 > Sogang University  
 > <sup>†</sup> These authors contributed equally to this work.
 
