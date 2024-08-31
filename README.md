@@ -7,7 +7,7 @@
 [![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue)](https://github.com/huggingface/transformers)
 
 This repository provides the official PyTorch implementation of the following paper:  
-> **ConVis: Contrastive Decoding with Hallucination Visualization for Mitigating Hallucinations in Multimodal Large Language Models**  
+> **[ConVis: Contrastive Decoding with Hallucination Visualization for Mitigating Hallucinations in Multimodal Large Language Models](https://arxiv.org/abs/2408.13906)**  
 > [Yeji Park](https://yejipark-m.github.io)<sup>†</sup>, [Deokyeong Lee](mailto:plmft@sogang.ac.kr)<sup>†</sup>, [Junsuk Choe](https://sites.google.com/site/junsukchoe/), [Buru Chang](https://sites.google.com/view/buru-chang)  
 > Sogang University  
 > <sup>†</sup> These authors contributed equally to this work.
