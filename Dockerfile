@@ -65,10 +65,10 @@ RUN pip install --no-cache-dir \
     diffusers \
     compel \
     hpsv2==1.2.0 \
-    prettytable
+    prettytable \
+    omegaconf \
+    iopath
 
 
 WORKDIR /root/share
-COPY transformers-4.36.2 ./transformers-4.36.2
-RUN pip install -e ./transformers-4.36.2 && \
-    python -m nltk.downloader punkt -d /root/nltk_data
+RUN python -m nltk.downloader punkt -d /root/nltk_data
