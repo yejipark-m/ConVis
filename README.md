@@ -70,7 +70,6 @@ To install, run the following commands to build the environment:
     ```
 5. Run the following commands.
     ```sh
-    pip uninstall transforemrs && \
     pip install -e ./transformers-4.36.2
     ```
 
