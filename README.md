@@ -68,6 +68,12 @@ To install, run the following commands to build the environment:
     ```sh
     docker exec -it <container name> /bin/bash
     ```
+5. Run the following commands.
+    ```sh
+    pip uninstall transforemrs && \
+    pip install -e ./transformers-4.36.2
+    ```
+
 
 <br>
 
