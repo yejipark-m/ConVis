@@ -62,12 +62,13 @@ To install, run the following commands to build the environment:
     ```
 3. Run the container.
     ```sh
-    docker run -itd --name yj_convis -v /home/yj/ConVis:/root/share/ -p 14352:8888 -p 14353:8889 -p 14354:8890 --shm-size=128G --gpus all -m "128G" --restart=always --ipc=host convis:yj /bin/bash -c "pip install -e /root/share/transformers-4.36.2 && tail -f /dev/null"
+    docker run -itd --name <container name> -v <local repo path>:/root/share/ -p 14352:8888 -p 14353:8889 -p 14354:8890 --shm-size=128G --gpus all -m "128G" --restart=always --ipc=host convis:<your_tag> /bin/bash -c "pip install -e /root/share/transformers-4.36.2 && tail -f /dev/null"
     ```
 4. Open the container.
     ```sh
     docker exec -it <container name> /bin/bash
     ```
+
 
 
 <br>
