@@ -152,7 +152,7 @@ Our method requires T2I-generated images during the decoding phases. We provide 
 ## Prepare MLLM Checkpoints
 
 Other models automatically download checkpoints from Huggingface when executing the code.
-However, the MiniGPT-4 weights needs to be downloaded separately from [official MiniGPT-4 7B pretrained weights for LlaMA-2](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view?usp=sharing).
+However, the MiniGPT-4 weights needs to be downloaded separately from [official MiniGPT-4 7B pretrained weights for LlaMA-2](https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing).
 
 
 Please follow these steps:
