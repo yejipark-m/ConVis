@@ -8,6 +8,7 @@ RUN apt-get update && \
       bash \
       vim \
       pip \
+      pkg-config \
       default-jdk \
       libgl1-mesa-glx \
       libegl1-mesa \
@@ -19,6 +20,7 @@ RUN apt-get update && \
       libasound2 \
       libxi6 \
       libxtst6 \
+      libmysqlclient-dev \
       ;
 
 # Install Python and pip
@@ -67,8 +69,9 @@ RUN pip install --no-cache-dir \
     hpsv2==1.2.0 \
     prettytable \
     omegaconf \
-    iopath
+    iopath \
+    pattern
 
 
 WORKDIR /root/share
-RUN python -m nltk.downloader punkt -d /root/nltk_data
+RUN python -m nltk.downloader punkt_tab -d /root/nltk_data
